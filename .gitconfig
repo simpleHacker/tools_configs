@@ -1,0 +1,11 @@
+[http]
+sslVerify = false
+proxy = http://bproxy.cfe.example.com:80
+#proxy = http://proxy.example.com:81
+[https]
+sslVerify = false
+proxy = http://bproxy.cfe.example.com:80
+#proxy = https://proxy.example.com:81
+[user]
+	name = user
+	email = user@example.com
