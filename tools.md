@@ -1,8 +1,21 @@
-## Welcome to GitHub Pages
+## Use VS Code
+### python: [Tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+#### virtual environment
+1. Create and activate the virtual environment. when open a new terminal, the env will be automatically activated
+```
+> python3 -m venv .venv
+> .venv\scripts\activate
+```
+2. Select your new environment by using the Python: Select Interpreter command from the Command Palette.
+3. install the package just active in the virtual environment
+```
+python3 -m pip install pyrh
+```
+4. after run the program, can type deactivate in terminal window to deactivate the vm.
 
-You can use the [editor on GitHub](https://github.com/simpleHacker/tools_configs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
 
 ### Markdown
 
