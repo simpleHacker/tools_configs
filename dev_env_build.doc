@@ -1,0 +1,8 @@
+
+* create python virtual environment and install all package there for easy migration
+   - https://code.visualstudio.com/docs/?dv=linux64_deb
+   - https://code.visualstudio.com/docs/python/environments
+   
+* go:
+   - install on linux: https://www.itzgeek.com/how-tos/linux/debian/how-to-install-go-lang-on-debian-11-debian-10.html
+   - debug: https://github.com/golang/vscode-go/blob/master/docs/debugging.md
