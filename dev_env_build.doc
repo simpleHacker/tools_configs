@@ -1,3 +1,14 @@
+* install OS on EFI booter disk: (partition for raid 0)
+1. after two ssd partition ready: use entir disk, only keep esp, other space keep as not used status partitioned.
+2. create software raid 0 with two unused spaces
+3. create lvm on md0
+4. create volumn group: vg1 mount on md0
+5. then create logic volumn on group, with name root with more space for root, 480G, use as ext4, mount on /
+6. create another lv on group, with name swap with rest space for swap. use as swap area
+7. install gub on the first drive.
+
+
+https://www.youtube.com/watch?v=ykzR3i-pToY
 
 * create python virtual environment and install all package there for easy migration
    - https://code.visualstudio.com/docs/?dv=linux64_deb
